@@ -1,14 +1,12 @@
 # Dashboard Comercial — Power BI
 
-Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs comerciais**, **modelagem em estrela** e **ETL no Power Query**. Inclui arquivo PBIX e dataset para reprodutibilidade.
+Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs comerciais** e **ETL no Power Query**. Inclui arquivo PBIX e dataset para reprodutibilidade.
 
-**Principais respostas de negócio:** Quais produtos e categorias lideram a receita? Como evolui o faturamento por mês? Quais regiões/canais contribuem mais? Quem são os top sellers? Como está o **Meta x Realizado** e o crescimento vs. período anterior?
+**Principais perguntas de negócio:** Quais produtos e categorias lideram a receita? Como evolui o faturamento por mês? Quais regiões/canais contribuem mais? Quem são os top sellers?
 
 **Como abrir:**  
 1) Baixe/clone o repositório.  
 2) Power BI Desktop → abra `pbix/Mini-Projeto2.pbix`.  
-3) Se necessário, ajuste parâmetros de caminho no Power Query para `data/`.  
-4) Atualize com **Refresh**.
 
 **Destaques do dashboard:** navegação simples, segmentações por período/produto/região/vendedor(a), visuais comparativos (tendência mensal, barras por contribuição), KPIs em cartões e análise de produtividade.
 
