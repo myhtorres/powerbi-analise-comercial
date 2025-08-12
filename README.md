@@ -2,7 +2,7 @@
 
 Este repositório contém um dashboard de vendas desenvolvido no **Microsoft Power BI** a partir de dados fictícios de uma operação comercial. O objetivo é demonstrar modelagem, ETL com Power Query, construção de medidas **DAX** e boas práticas de documentação para portfólio.
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 - Visualizar a **performance de vendas** por período, produto, categoria, região e vendedor(a).
 - Responder perguntas de negócio como:
   - Quais produtos lideram o faturamento?  
@@ -11,7 +11,7 @@ Este repositório contém um dashboard de vendas desenvolvido no **Microsoft Pow
   - Quem são os top sellers?  
 - Demonstrar recursos do Power BI como **navegação por índice/menu**, **Principais Influenciadores**, **Gráfico de Faixas** e **Narrativa Inteligente**.
 
-## 🗂️ Estrutura do Repositório
+## Estrutura do Repositório
 ```
 dashboard-comercial-powerbi/
 ├─ README.md
@@ -33,7 +33,7 @@ dashboard-comercial-powerbi/
     └─ /sql/                # scripts SQL (se houver)
 ```
 
-## 🧭 Como Abrir e Reproduzir
+## Como Abrir e Reproduzir
 1. **Baixe/clone** este repositório.
 2. Abra no Power BI Desktop:
    - **PBIX**: `pbix/Mini-Projeto2.pbix`
@@ -42,7 +42,7 @@ dashboard-comercial-powerbi/
 
 > **Dica:** Para versionamento mais granular (ideal para PRs e diffs), salve como **Power BI Project (.pbip)**: `File > Save as > Power BI Project`. Assim, o modelo/relatório ficam em arquivos texto versionáveis.
 
-## 📊 Principais KPIs (exemplos)
+## Principais KPIs (exemplos)
 - **Receita / Faturamento**
 - **Quantidade Vendida**
 - **Ticket Médio**
@@ -53,16 +53,16 @@ dashboard-comercial-powerbi/
 
 > Ajuste esta lista conforme as medidas do seu modelo. Recomendo exportar as principais DAX para `scripts/dax/` com comentários.
 
-## 🧱 Modelagem (resumo sugerido)
+## Modelagem (resumo sugerido)
 - **Esquema em estrela** com 1 tabela **Fato Vendas** e dimensões (ex.: **Produto**, **Cliente**, **Calendário**, **Região**, **Vendedor(a)**).
 - **Relacionamentos** unidirecionais com cardinalidade muitos-para-um.
 - **Calendário** com marcações (Ano, Mês, Trimestre, YTD, MTD).
 
-## 🧼 ETL (Power Query)
+## ETL (Power Query)
 - Limpeza de tipos, padronização de datas e moedas.
 - Derivação de colunas de negócio (ex.: margem, categoria, canal).
 
-## 📖 Dicionário de Dados (gerado automaticamente)
+## Dicionário de Dados (gerado automaticamente)
 **Arquivo:** `data/Dados_Comerciais.xlsx`
 
 **Abas encontradas:** Vendas
@@ -88,18 +88,18 @@ dashboard-comercial-powerbi/
 
 
 
-## 🖼️ Prints / GIF de navegação
+## Prints / GIF de navegação
 Adicione imagens do painel na pasta `images/` e referencie aqui:
 - `images/overview.png`
 - `images/detalhes-vendedor.png`
 - `images/indice.gif`
 
-## 📝 Roadmap / Melhorias Futuras
+## Roadmap / Melhorias Futuras
 - Converter para **.pbip** e versionar M/DAX como texto.
 - Criar **parâmetros de fonte** para alternar entre `data/sample` e dados reais.
 - Adicionar **testes de medidas** (ex.: validação de totals vs. subtotais).
 
-## 🧾 Licença
+## Licença
 Este projeto é distribuído sob a licença **MIT** (veja `LICENSE`).
 
 ---
