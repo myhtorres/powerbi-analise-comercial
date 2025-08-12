@@ -34,4 +34,4 @@ Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs 
 
 **Licença:** MIT (veja `LICENSE`).
 
-> Feito com 💛 por Myrelle — BI, dados e traduções técnicas.
+> Feito com 💛 por Myrelle.
