@@ -10,6 +10,13 @@ Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs 
 
 **Destaques do dashboard:** navegação simples, segmentações por período/produto/região/vendedor(a), visuais comparativos (tendência mensal, barras por contribuição), KPIs em cartões e análise de produtividade.
 
+### 📸 Prints do Dashboard
+![Índice](images/%C3%8Dndice.png)
+![Narrativa Inteligente](images/Narrativa%20Inteligente.png)
+![Principais Influenciadores](images/Principais%20Influenciadores.png)
+![Total Valor Venda por Categoria](images/Total%20valor%20venda%20por%20categoria.png)
+![Total Valor Venda por Estado](images/Total%20valor%20venda%20por%20estado.png)
+
 **KPIs implementados (exemplos):**  
 - Receita / Faturamento  
 - Quantidade vendida  
