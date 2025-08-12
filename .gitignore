@@ -1,0 +1,26 @@
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+.vscode/
+.idea/
+
+# Python / notebooks (caso use)
+__pycache__/
+.ipynb_checkpoints/
+
+# Power BI
+*.pbitool.json
+*.pbids
+*.rds
+*.rwz
+*.rdl
+
+# Dados sensíveis (ex.: substitua por amostras)
+data/raw/
+data/secret/
+*.bak
+*.zip
