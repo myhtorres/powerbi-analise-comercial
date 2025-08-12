@@ -13,7 +13,6 @@ Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs 
 ### Prints do Dashboard
 
 **Índice**
-**Índice**  
 Visão geral com navegação por seções do dashboard.  
 ![Índice do dashboard](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Indice.png)
 
