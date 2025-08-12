@@ -1,39 +1,37 @@
-# Dashboard Comercial — Performance de Vendas (Power BI)
+# Dashboard Comercial — Power BI
 
-Este repositório contém um dashboard de vendas desenvolvido no **Microsoft Power BI** a partir de dados fictícios de uma operação comercial. O objetivo é demonstrar modelagem, ETL com Power Query, construção de medidas **DAX** e boas práticas de documentação para portfólio.
+Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs comerciais**, **modelagem em estrela** e **ETL no Power Query**. Inclui arquivo PBIX e dataset para reprodutibilidade.
 
-## Objetivos do Projeto
-- Visualizar a **performance de vendas** por período, produto, categoria, região e vendedor(a).
-- Responder perguntas de negócio como:
-  - Quais produtos lideram o faturamento?  
-  - Como está a evolução mensal de vendas?  
-  - Quais regiões e canais mais contribuem para a receita?  
-  - Quem são os top sellers?  
-- Demonstrar recursos do Power BI como **navegação por índice/menu**, **Principais Influenciadores**, **Gráfico de Faixas** e **Narrativa Inteligente**.
+**Principais respostas de negócio:** Quais produtos e categorias lideram a receita? Como evolui o faturamento por mês? Quais regiões/canais contribuem mais? Quem são os top sellers? Como está o **Meta x Realizado** e o crescimento vs. período anterior?
 
-```
-## Como Abrir e Reproduzir
-1. **Baixe/clone** este repositório.
-2. Abra no Power BI Desktop:
-   - **PBIX**: `pbix/Mini-Projeto2.pbix`
-3. Caso altere caminhos locais, ajuste parâmetros no Power Query (por exemplo, pasta `data/`).  
-4. Clique em **Refresh** para atualizar as consultas.
+**Como abrir:**  
+1) Baixe/clone o repositório.  
+2) Power BI Desktop → abra `pbix/Mini-Projeto2.pbix`.  
+3) Se necessário, ajuste parâmetros de caminho no Power Query para `data/`.  
+4) Atualize com **Refresh**.
 
-## Principais KPIs (exemplos)
-- **Receita / Faturamento**
-- **Quantidade Vendida**
-- **Ticket Médio**
-- **Meta x Realizado**
-- **Crescimento % vs. Período Anterior**
-- **Participação por Categoria/Região/Canal**
-- **Produtividade por Vendedor(a)**
+**Destaques do dashboard:** navegação simples, segmentações por período/produto/região/vendedor(a), visuais comparativos (tendência mensal, barras por contribuição), KPIs em cartões e análise de produtividade.
 
-## Dicionário de Dados
-**Arquivo:** `data/Dados_Comerciais.xlsx`
+**KPIs implementados (exemplos):**  
+- Receita / Faturamento  
+- Quantidade vendida  
+- Ticket médio  
+- Meta x Realizado (% e var. abs.)  
+- Crescimento % vs. período anterior  
+- Participação por Categoria / Região / Canal  
+- Produtividade por Vendedor(a)
 
-## Licença
-Este projeto é distribuído sob a licença **MIT** (veja `LICENSE`).
+**ETL (Power Query) – visão geral:**  
+- Tipagem/limpeza de colunas, normalização de datas e percentuais.  
+- Derivação de colunas de negócio (ex.: margem/percentual de comissão).  
+- Parâmetros de caminho para facilitar portabilidade do `data/`.
 
----
+**Dados do repositório:**  
+- `data/Dados_Comerciais.xlsx`  
+  - **Aba**: `Vendas` — 457 linhas, 14 colunas  
+  - **Colunas** (principais): `ID-Produto`, `Produto`, `Categoria`, `Segmento`, `Fabricante`, `Loja`, `Cidade`, `Estado`, `Vendedor`, `ID-Vendedor`, `Comissão (Percentual)`, `Data Venda`  
+- `pbix/Mini-Projeto2.pbix` → arquivo final do dashboard
 
-> Feito com 💛 por Myrelle — foco em BI, dados e traduções técnicas.
+**Licença:** MIT (veja `LICENSE`).
+
+> Feito com 💛 por Myrelle — BI, dados e traduções técnicas.
