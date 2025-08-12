@@ -13,25 +13,25 @@ Projeto de análise de vendas em Power BI com dados fictícios e foco em **KPIs 
 ### Prints do Dashboard
 
 **Índice**
-Visão geral com navegação por seções do dashboard.
-![Índice](images/indice.png)
+**Índice**  
+Visão geral com navegação por seções do dashboard.  
+![Índice do dashboard](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Indice.png)
 
-**Narrativa Inteligente**
-Resumo textual automático destacando os maiores faturamentos entre fabricantes e segmentos.
-![Narrativa Inteligente](images/narrativa-inteligente.png)
+**Narrativa Inteligente**  
+Resumo textual automático destacando os maiores faturamentos entre fabricantes e segmentos.  
+![Narrativa Inteligente](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Narrativa%20Inteligente.png)
 
-**Principais Influenciadores**
-Visual de "principais influenciadores" que mostra como segmento e categoria impactam o Valor de Venda.
-![Principais Influenciadores](images/principais-influenciadores.png)
+**Principais Influenciadores**  
+Visual de "principais influenciadores" que mostra como segmento e categoria impactam o Valor de Venda.  
+![Principais Influenciadores](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Principais%20Influenciadores.png)
 
-**Total Valor Venda por Categoria**
-Gráfico de barras mostrando o volume de vendas por categoria (Electrodomésticos, Celulares, etc.).
-![Total Valor Venda por Categoria](images/total-valor-venda-por-categoria.png)
+**Total Valor Venda por Categoria**  
+Gráfico de barras mostrando o volume de vendas por categoria.  
+![Total valor venda por categoria](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Total%20valor%20venda%20por%20categoria.png)
 
-**Total Valor Venda por Estado e Vendedor**
-Mapa ou visual de localização geográfica (se presente), mostrando a contribuição por estado e vendedor.
-![Total Valor Venda por Estado](images/total-valor-venda-por-estado.png)
-
+**Total Valor Venda por Estado e Vendedor**  
+Mapa ou visual de localização geográfica, mostrando a contribuição por estado e vendedor.  
+![Total valor venda por estado](https://raw.githubusercontent.com/myhtorres/powerbi-analise-comercial/main/images/Total%20valor%20venda%20por%20estado.png)
 
 **KPIs implementados (exemplos):**  
 - Receita / Faturamento  
